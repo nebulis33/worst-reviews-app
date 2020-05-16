@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  height: 100vh;
+  margin: 0 1em 0 1em;
+  background-color: blue; }
+
+header {
+  width: 100%;
+  padding: 0.5em;
+  height: min-content;
+  background-color: plum; }
+
+section {
+  width: 45%;
+  min-width: 400px;
+  min-height: 300px;
+  height: 65%;
+  justify-content: space-evenly;
+  border: 1px solid black;
+  margin: 1em; }
+  section .map {
+    padding: 5em; }
+
+ul {
+  display: block;
+  list-style-type: none; }
+
+li {
+  width: 100%;
+  height: max-content;
+  background-color: rosybrown;
+  border: 1px solid red; }
+  li span {
+    background-color: silver; }
+
+/*# sourceMappingURL=stylesheet.css.map */
