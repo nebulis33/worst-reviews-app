@@ -1,4 +1,4 @@
-* {
+html * {
   margin: 0;
   padding: 0; }
 
@@ -8,15 +8,21 @@ body {
   flex-direction: row;
   height: 100vh;
   margin: 0 1em 0 1em;
-  background-color: blue; }
+  background-color: #DB5461;
+  justify-content: center; }
 
 header {
   width: 100%;
   padding: 0.5em;
+  text-align: center;
   height: min-content;
-  background-color: plum; }
+  font-family: "Comic Sans MS";
+  background-color: #FFD166; }
+  header span {
+    color: red; }
 
 section {
+  background-color: ivory;
   width: 45%;
   min-width: 400px;
   min-height: 300px;
@@ -24,19 +30,25 @@ section {
   justify-content: space-evenly;
   border: 1px solid black;
   margin: 1em; }
-  section .map {
-    padding: 5em; }
 
 ul {
   display: block;
   list-style-type: none; }
 
 li {
-  width: 100%;
   height: max-content;
+  padding: 0.25em 1em;
   background-color: rosybrown;
   border: 1px solid red; }
   li span {
     background-color: silver; }
+    li span.stars {
+      background-color: skyblue;
+      float: right; }
+
+footer {
+  height: 1em;
+  width: 100%;
+  background: red; }
 
 /*# sourceMappingURL=stylesheet.css.map */
